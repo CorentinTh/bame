@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const {bame} = require('..');
 
 var argv = require('yargs')
