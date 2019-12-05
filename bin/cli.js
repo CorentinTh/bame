@@ -9,7 +9,7 @@ var argv = require('yargs')
     .demandCommand(2)
     .alias('h', 'help')
     .alias('v', 'version')
-    .example('bame "(.*) Episode(.*)" "{1}.E{2}"')
+    .example('bame "GoT Episode (.*) Season (.*)" "GOT.E{1}.S{2}"')
     .locale('en')
     .argv;
     
@@ -20,4 +20,4 @@ bame({
         renameDir: !argv.d,
         verbose: !argv.q
     }
-})
+});
