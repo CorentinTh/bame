@@ -39,7 +39,7 @@ const bame = (config: BameConfig = defaultConfig) => {
                         return matches[parseInt(i)];
                     });
 
-                    logger(`${file} \t--> \t ${newFile}`);
+                    logger(`${file}     -->     ${newFile}`);
                     renameSync(join(config.cwd!, file), join(config.cwd!, newFile));
                 }
             });
