@@ -2,7 +2,7 @@
   "name": "bame",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/bame.js",
   "bin": {
     "bame": "bin/cli.js"
   },
