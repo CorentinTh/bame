@@ -10,6 +10,7 @@ var argv = require('yargs')
     .alias('h', 'help')
     .alias('v', 'version')
     .example('bame "(.*) Episode(.*)" "{1}.E{2}"')
+    .locale('en')
     .argv;
     
 bame({
