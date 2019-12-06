@@ -1,3 +1,5 @@
+
+
 <p align="center">
     <img src=".github/bame-banner.png" alt="bame banner">
 </p>
@@ -6,9 +8,14 @@
 
 <p align="center">
     <a href="https://github.com/CorentinTh/bame/actions">
-        <img src="https://github.com/CorentinTh/bame/workflows/Node%20CI/badge.svg" alt="Actions Status">
+        <img src="https://github.com/CorentinTh/bame/workflows/Node%20CI/badge.svg" alt="actions badge">
+    </a>
+    <a href="https://codecov.io/gh/CorentinTh/bame">
+        <img src="https://codecov.io/gh/CorentinTh/bame/branch/dev/graph/badge.svg?token=R7tb8smlR9" alt="coverage badge"/>
     </a>
 </p>
+
+
 
 ![demo gif](.github/bame-demo.gif)
 
