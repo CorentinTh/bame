@@ -10,9 +10,26 @@
     "build": "tsc",
     "test": "jest --config jestconfig.json"
   },
-  "keywords": [],
+  "keywords": [
+      "bame", 
+      "rename", 
+      "file", 
+      "files", 
+      "batch",
+      "cli", 
+      "cross-plateform", 
+      "javascript"
+    ],
   "author": "",
   "license": "MIT",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/CorentinTh/bame"
+  },
+  "homepage": "https://github.com/CorentinTh/bame#readme",
+  "bugs": {
+    "url": "https://github.com/CorentinTh/bame/issues"
+  },
   "dependencies": {
     "yargs": "^15.0.2"
   },
