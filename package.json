@@ -1,7 +1,7 @@
 {
   "name": "bame",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tool to rename files batches using regex.",
   "main": "dist/bame.js",
   "bin": {
     "bame": "bin/cli.js"
