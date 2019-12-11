@@ -1,7 +1,6 @@
 import { readdirSync, statSync, renameSync } from 'fs';
 import { join } from 'path';
 
-
 type BameConfig = {
     inReg: string,
     outReg: string,
@@ -16,6 +15,7 @@ type DeepRequired<T> = {
     [P in keyof Required<T>]: T[P] extends object ? DeepRequired<T[P]> : NonNullable<Required<T[P]>>
 }
 
+// Default config, each params will be overwritten by user's config
 const defaultConfig: DeepRequired<BameConfig> = Object.freeze({
     cwd: process.cwd(),
     inReg: '(.*)',
@@ -26,6 +26,10 @@ const defaultConfig: DeepRequired<BameConfig> = Object.freeze({
     outReg: '{1}'
 });
 
+/**
+ * Rename files using Regexs
+ * @param config {BameConfig} Bame configuration parameters
+ */
 const bame = (config: BameConfig = defaultConfig) => {
     const parsedConfig: DeepRequired<BameConfig> = Object.assign({}, defaultConfig, config);
     
