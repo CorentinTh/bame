@@ -1,6 +1,6 @@
 {
   "name": "bame",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool to rename files batches using regex.",
   "main": "dist/bame.js",
   "bin": {
@@ -12,20 +12,20 @@
     "prepublish": "npm run build"
   },
   "keywords": [
-      "bame", 
-      "rename", 
-      "file", 
-      "files", 
-      "batch",
-      "cli", 
-      "cross-plateform", 
-      "javascript"
-    ],
+    "bame",
+    "rename",
+    "file",
+    "files",
+    "batch",
+    "cli",
+    "cross-plateform",
+    "javascript"
+  ],
   "author": "",
   "license": "MIT",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/CorentinTh/bame"
+    "type": "git",
+    "url": "https://github.com/CorentinTh/bame"
   },
   "homepage": "https://github.com/CorentinTh/bame#readme",
   "bugs": {
